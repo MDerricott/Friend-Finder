@@ -1,17 +1,18 @@
 {
-  "name": "friend-finder",
+  "name": "Friend-Finder",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MDerricott/Friend-Finder.git"
   },
-  "author": "Melissa Derricott",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MDerricott/Friend-Finder/issues"
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/MDerricott/Friend-Finder#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "nodemon": "^1.18.5",
     "path": "^0.12.7"
   }
 }
